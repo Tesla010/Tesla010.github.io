@@ -1,26 +1,56 @@
 ---
-layout: default
 ---
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT Ethics</title>
+    <link href="/assets/style.css" rel="stylesheet"> <!-- Link to your custom CSS file -->
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        .container { width: 80%; margin: auto; overflow: hidden; }
+        header { background: #333; color: white; padding-top: 30px; min-height: 70px; border-bottom: #f4f4f4 3px solid; }
+        header a { color: #ffffff; text-decoration: none; text-transform: uppercase; font-size: 16px; }
+        header ul { padding: 0; margin: 0; list-style: none; overflow: hidden; }
+        header li { float: left; display: inline; padding: 0 20px 0 20px; }
+        header #branding { float: left; }
+        header #branding h1 { margin: 0; }
+        header nav { float: right; margin-top: 10px; }
+        header .highlight, header .current a { color: #e8491d; font-weight: bold; }
+        header a:hover { color: #ffffff; font-weight: bold; }
+        .button { height: 50px; background: #e8491d; padding: 10px 20px 10px 20px; color: #ffffff; text-align: center; border-radius: 5px; margin-top: 10px; display: inline-block; text-decoration: none; }
+        .button:hover { background: #333; }
+    </style>
 </head>
 <body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">IT</span> Ethics</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li class="current"><a href="/ethics">Ethics</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <h1>IT Ethics in Software Development</h1>
-    <p>Understanding and adhering to ethical standards is crucial in the field of IT, especially for developers. With the increasing influence of technology in everyday life, ethical considerations in software development have become more significant.</p>
-    
-    <h2>Data Privacy</h2>
-    <p>Data privacy is a fundamental ethical concern in IT. Developers must ensure compliance with data privacy regulations like GDPR. Failure to adhere can result in severe consequences, including financial penalties and loss of user trust. (Source: <a href="https://gdpr-info.eu/" target="_blank">GDPR Info</a>)</p>
+    <div class="container">
+        <h1>IT Ethics in Software Development</h1>
+        <p>Understanding and adhering to ethical standards is crucial in the field of IT, especially for developers. With the increasing influence of technology in everyday life, ethical considerations in software development have become more significant.</p>
+        
+        <h2>Data Privacy</h2>
+        <p>Data privacy is a fundamental ethical concern in IT. Developers must ensure compliance with data privacy regulations like GDPR. Failure to adhere can result in severe consequences, including financial penalties and loss of user trust. (Source: <a href="https://gdpr-info.eu/" target="_blank">GDPR Info</a>)</p>
 
-    <h2>Bias in Algorithms</h2>
-    <p>Bias in algorithms can lead to unfair and discriminatory outcomes. Developers have a responsibility to minimize bias and ensure their algorithms are equitable. This involves careful design and testing to identify and mitigate potential biases. (Source: <a href="https://ainowinstitute.org/AI_Now_2019_Report.html" target="_blank">AI Now Institute</a>)</p>
+        <h2>Bias in Algorithms</h2>
+        <p>Bias in algorithms can lead to unfair and discriminatory outcomes. Developers have a responsibility to minimize bias and ensure their algorithms are equitable. This involves careful design and testing to identify and mitigate potential biases. (Source: <a href="https://ainowinstitute.org/AI_Now_2019_Report.html" target="_blank">AI Now Institute</a>)</p>
 
-    <h2>Transparency and Accountability</h2>
-    <p>Transparency in data handling and algorithm design is essential for accountability in IT. Developers should be transparent about how data is collected, used, and stored, and ensure that their products are accountable to users. (Source: <a href="https://www.oecd.org/going-digital/ai/principles/" target="_blank">OECD AI Principles</a>)</p>
-
+        <h2>Transparency and Accountability</h2>
+        <p>Transparency in data handling and algorithm design is essential for accountability in IT. Developers should be transparent about how data is collected, used, and stored, and ensure that their products are accountable to users. (Source: <a href="https://www.oecd.org/going-digital/ai/principles/" target="_blank">OECD AI Principles</a>)</p>
+    </div>
 </body>
 </html>
